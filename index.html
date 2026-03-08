@@ -395,7 +395,7 @@
 
       <h1>AYAKKABI DÜNYASI SERVİS GÜZERGAHI</h1>
       <p class="sub">Tek Rota • Mobil Uyumlu</p>
-      <div class="tag">Ayakkabı Dünyası • İç Kullanım</div>
+
 
       <div class="btnRow">
         <a id="navBtn" class="btn btnPrimary" href="javascript:void(0)">
@@ -403,7 +403,7 @@
           <span class="btnSub">Google Maps</span>
         </a>
 
-        <a href="tel:905353892007" class="btn btnGhost">📞 Ferdi Beyi Ara</a>
+        <button type="button" class="btn btnGhost" style="cursor:default;">Ş: Ferdi Bey</button>
 
         <button id="themeBtn" class="btn btnGhost" type="button">🌙 Gece Modu</button>
       </div>
@@ -438,7 +438,7 @@
           <div class="note">
             <b>Bilgilendirme</b><br/>
             Versiyon : 1.0 (başka güncelleme gelmez 🙂)<br/>
-            Bağış Yapmak İsterseniz Sadece Nakit 🙂
+            Bağış Yapmak İsterseniz Sadece Dua 🙂
           </div>
         </div>
       </div>
@@ -448,11 +448,9 @@
 
     <footer class="footer">
       <div class="footerContent">
-        <div>© 2026 Ayakkabı Dünyası</div>
+        <div>© 2026 Muhammet</div>
         <div>
-          Designed by
-          <span class="itLetter">I</span>nformation
-          <span class="itLetter">T</span>echnology Specialist Muhammet
+          Designed by Muhammet
         </div>
       </div>
     </footer>
@@ -502,7 +500,7 @@
       }, 1500);
     });
 
-    document.getElementById("originText").textContent = "Esas Holding";
+    document.getElementById("originText").textContent = "İş";
     document.getElementById("destText").textContent = "Zincirlikuyu Metrobüs";
 
     // === Günlük Mesajlar ===
@@ -528,7 +526,7 @@
       document.getElementById("dailyClock").textContent = `${saat}:${dak}`;
       document.getElementById("dailyDate").textContent  =
         `${gunIsimleri[gun]}, ${now.getDate()} ${ayIsimleri[now.getMonth()]} ${now.getFullYear()}`;
-      document.getElementById("dailyMsg").textContent   = gunMesajlari[gun];
+      document.getElementById("dailyMsg").textContent   = "";
     }
 
     updateClock();
